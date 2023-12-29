@@ -15,12 +15,12 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(cookieParser());
 app.use(morgan('dev'));
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*'); 
-  res.header('Access-Control-Allow-Credentials', 'true');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
-  next();
-});
+        registry.addMapping("/**")
+                .allowedOrigins("https://essence-production.up.railway.app") // your reactjs URL
+                .allowedMethods("GET", "POST", "PATCH", "PUT", "DELETE")
+                .allowedHeaders("Content-Type") // Adjust headers you need to allow
+                .allowCredentials(true); // Add only if you want to access cookie
+    });
 
 app.use('/', routes);
 
