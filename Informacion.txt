@@ -1,0 +1,35 @@
+Servicios:
+Paquetes de Tratamientos corporales:
+X6 sesiones.
+X8 sesiones. 
+
+Servicios individuales:
+-Criolipolisis plena.
+-Body Health.
+-Body up.
+-Tratamientos faciales.
+-Depilacion definitiva.
+-Lifting definitiva.
+-Lifting de pestañas.
+-Masajes relajantes/Descontracturantes.
+-drenajes post quirúrgicos.
+-perfilado de cejas.
+-Laminado de cejas.
+
+Horarios:
+Lunes, miercoles y viernes: 09 a 20hs.
+Martes y jueves: 09 a 12hs y 15 a 20hs.
+sabados: 09 a 13.
+
+Un dia al mes Todos los turnos de corrido.
+
+{
+    "nombre":"martin",
+    "apellido":"perez",
+    "telefono":"3513410820"
+    "turnos":[
+        "fecha":"14/12/2023",
+        "hora":"10hs",
+        "servicio":"X6 sesiones"
+    ]
+}
