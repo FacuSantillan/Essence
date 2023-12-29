@@ -94,7 +94,7 @@ const postClient = async (req, res) => {
                     </head>
                     <body>
                         <div class="container">
-                            <h2>¡Hola Yanina!</h2>
+                            <h2>¡Hola Matias!</h2>
                             <div class="info">
                                 <p>A continuación se detallan los datos de la reserva:</p>
                                 <ul>
