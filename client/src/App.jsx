@@ -14,7 +14,7 @@ import DiasYHoras from './views/dashBoard/diasyHoras/diasYhoras';
 import axios from 'axios'
 
 // axios.defaults.baseURL = 'http://localhost:57040/'
-axios.defaults.baseURL = 'https://ca-production.up.railway.app/'
+axios.defaults.baseURL = 'https://backend-production-3b68.up.railway.app/'
 
 function App() {
   const { pathname } = useLocation();
